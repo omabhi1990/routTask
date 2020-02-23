@@ -7,7 +7,7 @@ class RouteComponentB extends Component {
 
   render() {
     let { params } = this.props.match;
-    console.log("props ", this.props);
+    console.log("props  from", this.props);
     return <h1>Route Component B Parmas Value : {params.qry}</h1>;
   }
 }
